@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection/HeroSection';
 import DebateSessions from '../components/DebateSection/DebateSessions';
 import Evaluation from '../components/EvaluationSection/Evaluation';
 import MockTest from '../components/MockTestSection/MockTest';
+import Footer from '../components/Footer/Footer';
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <DebateSessions />
       <Evaluation />
       <MockTest />
+      <Footer />
       {/* <div>
         <h1>Welcome to firstbench.ai</h1>
         <div className="login">
